@@ -1,15 +1,154 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
-    <title>2 CSE B</title>
-    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <meta charset="utf-8" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>learning bootstrap</title>
   </head>
   <body>
-    <div class="">
-      hwello
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-* px-5"
+      style="background-color: black;"
+    >
+      <a class="navbar-brand" href="#"></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"
+              >Home <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row mb-3">
+        <div class="col-md text-center">
+          <img
+            class="profile-img rounded-circle mt-5 mb-3"
+            src="ww.png"
+            width="auto"
+            height="200"
+            alt="this is walter white"
+          />
+          <h4>Hey, I am Walter White!</h4>
+        </div>
+      </div>
+      <div class="row mt-3">
+        A graduate of the California Institute of Technology (Caltech), Walter
+        co-founded the company Gray Matter Technologies with his then-girlfriend
+        Gretchen Schwartz and his close friend Elliott Schwartz. He left Gray
+        Matter abruptly, selling his shares for $5,000.[1][2] Soon afterward,
+        the company made a fortune, much of it from his research. Walt
+        subsequently moved to Albuquerque, New Mexico, where he became a high
+        school chemistry teacher. Breaking Bad begins on Walt's 50th birthday,
+        when he is diagnosed with Stage IIIA lung cancer. After this discovery,
+        he resorts to manufacturing and selling methamphetamines with his former
+        student, Jesse Pinkman (Aaron Paul), to ensure his family's financial
+        security after his death. He is pulled deeper into the illicit drug
+        trade, becoming more and more ruthless as the series progresses, and
+        later adopts the alias "Heisenberg", which becomes recognizable as the
+        kingpin figure in the local drug trade. Series creator Vince Gilligan
+        has described his goal with Walter White as "turning Mr. Chips into
+        Scarface" and deliberately made the character less sympathetic over the
+        course of the series. Walt's evolution from a mild-mannered school
+        teacher and family man into a dangerous drug lord and serial killer is
+        the show's central focus.
+      </div>
     </div>
-    <div class="">
-      whatsuppp?
+
+    <div class="container w-50">
+      <div class="row">
+        <div class="col">
+          <div class="container mt-5 mb-3 text-center">
+            <h3 id="education" class="ml-5 mt-5">My Education</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          10th - Samaritans High School
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          +2 - Johnson Grammar School
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          Btech - VBIT
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          Masters - MIT
+        </div>
+      </div>
+    </div>
+
+    <div class="container w-50 mb-5">
+      <div class="row">
+        <div class="col">
+          <div class="container mt-5 mb-3 text-center">
+            <h3 class="ml-5 mt-5" id="skills">My skills</h3>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h5>My JAVA skill level</h5>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 25%;"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+          <h5>My python skill level</h5>
+          <div class="progress">
+            <div
+              class="progress-bar"
+              role="progressbar"
+              style="width: 50%;"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
